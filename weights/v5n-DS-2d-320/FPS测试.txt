@@ -1,0 +1,17 @@
+Fusing layers... 
+YOLOv5n-DS-2d summary: 157 layers, 1760518 parameters, 0 gradients, 4.1 GFLOPs
+val: Scanning D:\yolov5lite\yolov5-master\v5n\CPPE\labels\val.cache... 50 images, 0 backgrounds, 0 corrupt: 100%|██████████| 50/50 [00:00<?, ?it/s]
+                 Class     Images  Instances          P          R      mAP50   mAP50-95: 100%|██████████| 7/7 [00:08<00:00,  1.20s/it]
+                   all         50        195      0.724      0.672      0.698      0.362
+Speed: 0.3ms pre-process, 26.9ms inference, 0.5ms NMS per image at shape (8, 3, 320, 320)
+FPS: 36.068
+Results saved to runs\val\exp15
+
+
+YOLOv5n-DS-2d summary: 157 layers, 1760518 parameters, 0 gradients, 4.1 GFLOPs
+val: Scanning D:\yolov5lite\yolov5-master\v5n\CPPE\labels\val.cache... 50 images, 0 backgrounds, 0 corrupt: 100%|██████████| 50/50 [00:00<?, ?it/s]
+                 Class     Images  Instances          P          R      mAP50   mAP50-95: 100%|██████████| 7/7 [00:08<00:00,  1.19s/it]
+                   all         50        195      0.753       0.61       0.71       0.39
+Speed: 0.3ms pre-process, 26.8ms inference, 0.4ms NMS per image at shape (8, 3, 320, 320)
+FPS: 36.382
+Results saved to runs\val\exp16

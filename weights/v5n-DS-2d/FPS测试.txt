@@ -1,0 +1,10 @@
+Fusing layers... 
+YOLOv5n summary: 157 layers, 1760518 parameters, 0 gradients, 4.1 GFLOPs
+val: Scanning D:\yolov5lite\yolov5-master\v5n\CPPE\labels\val.cache... 50 images, 0 backgrounds, 0 corrupt: 100%|██████████| 50/50 [00:00<?, ?it/s]
+                 Class     Images  Instances          P          R      mAP50   mAP50-95: 100%|██████████| 7/7 [00:08<00:00,  1.20s/it]
+                   all         50        195      0.767        0.6      0.679      0.341
+Speed: 0.3ms pre-process, 26.9ms inference, 0.5ms NMS per image at shape (8, 3, 320, 320)
+FPS: 36.149
+Results saved to runs\val\exp18
+
+python -m onnxsim ./last.onnx ./v5n-DS-2d-320-last.onnx
